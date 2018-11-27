@@ -1,0 +1,29 @@
+{
+  "name": "webkithack",
+  "version": "1.0.0",
+  "description": "Fixes the iOS 11.3 bug that makes touch events cause the window to scroll.  This can be an issue for drag and drop libraries.",
+  "main": "index.js",
+  "keywords": [
+    "webkit",
+    "hack",
+    "iOS",
+    "touch",
+    "drag",
+    "scroll",
+    "bug",
+    "fix"
+  ],
+  "author": "Jake Burden <jake@burden.blog>",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jekrb/webkitHack.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jekrb/webkitHack/issues"
+  },
+  "homepage": "https://github.com/jekrb/webkitHack#readme"
+}
