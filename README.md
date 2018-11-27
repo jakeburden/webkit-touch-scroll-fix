@@ -1,4 +1,4 @@
-# webkitHack
+# webkit-touch-scroll-fix
 
 > Fixes the [iOS 11.3 bug](https://bugs.webkit.org/show_bug.cgi?id=184250) that makes touch events cause the window to scroll.  This can be an issue for drag and drop libraries.
 
@@ -7,7 +7,7 @@ This fix was taken directly from a pull request in [react-beautiful-dnd](https:/
 ## Usage
 
 ```js
-const webkitHack = require('webkitHack')
+const webkitHack = require('webkit-touch-scroll-fix')
 
 const onDrag = (e) => {
   webkitHack.preventTouchMove()
@@ -22,7 +22,7 @@ const onDragStop = (e) => {
 With [npm](https://npmjs.org/) installed, run
 
 ```
-$ npm install webkitHack
+$ npm install webkit-touch-scroll-fix
 ```
 
 ## License
